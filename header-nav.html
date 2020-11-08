@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>corona_cARe</title>
+  <link rel="stylesheet" href="./assets/css/navbar.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</head>
+
+<body>
+  <header class="mb-5">
+    <nav class="container desktop__navbar">
+      <span class="nav__logo">corona_c<span>AR</span>e</span>
+      <!-- <img class="nav__logo" src="./assets/images/logo.svg" /> -->
+      <ul class="desktop__nav__list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">CBrief</a></li>
+        <li><a href="./play.html">Play Zone</a></li>
+        <li><a href="./news.html">News</a></li>
+        <li><a href="./stats.html">Stats</a></li>
+        <li><a class="active" href="./faq.html">FAQ</a></li>
+      </ul>
+      <!-- <ul class="desktop__nav__list">
+        <li><a href="#">Login</a></li>
+        <li><a class="sign__up" href="#">Download CV</a></li>
+      </ul> -->
+
+      <div id="openButton" class="mobile__hamburger">
+        <div></div>
+      </div>
+    </nav>
+    <div id="myModal" class="mobile__nav__bg">
+      <div class="mobile__nav">
+        <span class="closeBtn" id="closeBtn">&times;</span>
+        <span class="nav__logo">corona_c<span>AR</span>e</span>
+        <!-- <div class="closeBtn" id="closeBtn">
+          <div></div>
+        </div> -->
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">CBrief</a></li>
+          <li><a href="./play.html">Play Zone</a></li>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./stats.html">Stats</a></li>
+          <li class="active"><a href="./faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- <main class="m-5" style="height: 300px;"></main> -->
+
+
+
+  <!-- <canvas id="myChart" width="400" height="400"></canvas>
+  <script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+          label: '# of Votes',
+          data: [12, 19, 3, 5, 2, 3],
+          backgroundColor: [
+            'rgba(255, 99, 132, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(255, 206, 86, 0.2)',
+            'rgba(75, 192, 192, 0.2)',
+            'rgba(153, 102, 255, 0.2)',
+            'rgba(255, 159, 64, 0.2)'
+          ],
+          borderColor: [
+            'rgba(255, 99, 132, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(75, 192, 192, 1)',
+            'rgba(153, 102, 255, 1)',
+            'rgba(255, 159, 64, 1)'
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
+      }
+    });
+  </script> -->
+
+  <footer class="mt-5">
+    <div class="d-block d-lg-flex container list-div py-5">
+      <div>
+        <span class="nav__logo">corona_c<span>AR</span>e</span>
+      </div>
+      <div>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">CBrief</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./stats.html">Statistics</a></li>
+          <li><a href="./play.html">Play Zone</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="d-none d-lg-block">Get live Updates from time to time</p>
+        <form class="form-row" style="flex-wrap: nowrap;">
+          <input class="form-control rounded-0 rounded-left" type="email" placeholder="example@email.com"/>
+          <button class="btn btn-primary rounded-0" type="button" value="submit">Subscribe</button>
+        </form>
+
+      </div>
+    </div>
+    <div class="footer-copyright py-3">
+      <section class="d-flex justify-content-between py-3 text-center m-auto">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-telegram-plane"></i>
+      </section>
+      
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

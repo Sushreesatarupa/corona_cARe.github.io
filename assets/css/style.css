@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+  font-family: 'Quicksand', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.start {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.start h1 {
+  font-size: 3rem;
+}
+
+.start .safe {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: #006400;
+}
+
+.start p {
+  font-size: 1.1rem;
+  line-height: 30px;
+}
+
+.btn-learn {
+  margin-top: 10px;
+  padding: 10px 40px;
+  border-radius: .25rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #00CC6A;
+  border: none;
+  color: white;
+}
+
+.spread {
+  margin-top: 50px;
+}
+
+.spread h2 {
+  width: 50%;
+  margin-left: 30%;
+  margin-right: 30%
+  margin-bottom: 20px;
+  color: #006400;
+  font-size: 2.5rem;
+}
+
+.spread h3 {
+  font-size: 1.5rem;
+}
+
+.spread .how {
+  width: 45%;
+  margin: auto;
+}
+
+.spread img {
+  width: 40%;
+  height: 150px;
+  margin-left: 30%;
+  margin-right: 30%;
+  object-fit: contain;
+}
+
+.spread h3 {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.spread p {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 25px;
+}
+
+.ways {
+  display: flex;
+  justify-content: space-around;
+}
+
+.symptoms {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.explain {
+  width: 30%;
+}
+
+.sym-head {
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #006400;
+  font-size: 2.5rem;
+}
+
+.btn-help {
+  margin-top: 10px;
+  width: 60%;
+  padding: 10px 40px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #00CC6A;
+  border: none;
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .welcome.image img {
+    width: 10%;
+  }
+  .spread {
+    width: 100%;
+  }
+  .spread h2 {
+    width: 90% !important;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome {
+    flex-direction: column-reverse;
+  }
+  .start,.spread .how,.image img {
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+  .start h1{
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+  }
+  .spread img{
+    height: auto;
+  }
+  .spread h3 {
+    margin: auto;
+  }
+  .symptoms,.ways {
+    display: block;
+  }
+  .symptoms img{
+    width: 70%;
+    margin: auto;
+    display: block;
+  }
+  .explain {
+    width: 75%;
+    margin: auto;
+  }
+  .btn-learn {
+    width: 100%;
+  }
+  .ways div{
+    margin: 3rem 0;
+  }
+}
+ 

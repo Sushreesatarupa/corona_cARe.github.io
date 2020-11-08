@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.protect{
+    margin-bottom:30px;
+}
+
+.protect h2,p{
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.prootect p{
+    font-size:1.5rem;
+}
+
+
+
+
+.prevent-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:5%;
+    margin-left: 5%;
+}
+
+.prevent-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:5%;
+    margin-left: 5%;
+    margin-top:20px;
+}
+
+.prevent-1 .reduce{
+    width:30%;
+    margin-left: 35%;
+    margin-right: 30%;
+}
+
+.prevent-2 .reduce{
+    width:30%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.prevent-s img{
+    width: 60%;
+    margin-left: 15%;
+    margin-right:15%;
+}
+
+.prevent-s h3{
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+    text-align:center;
+    color:#006400;
+}
+
+@media only screen and (max-width: 992px) { 
+    .prevent-1,.prevent-2{
+        display:block;
+    }
+
+    .prevent-s{
+        margin-bottom: 10px;
+    }
+
+
+ }
+
+@media only screen and (max-width: 576px) { 
+
+    .prevent-1,.prevent-2{
+        display:block;
+    }
+
+    .prevent-s{
+        margin-bottom: 10px;
+    }
+ }

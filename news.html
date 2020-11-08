@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>corona_cARe</title>
+  <link rel="stylesheet" href="./assets/css/navbar.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/news.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</head>
+
+<body>
+  <header class="mb-5">
+    <nav class="container desktop__navbar">
+      <span class="nav__logo">corona_c<span>AR</span>e</span>
+      <!-- <img class="nav__logo" src="./assets/images/logo.svg" /> -->
+      <ul class="desktop__nav__list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">CBrief</a></li>
+        <li><a href="./play.html">Play Zone</a></li>
+        <li><a class="active" href="./news.html">News</a></li>
+        <li><a href="./stats.html">Stats</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+      </ul>
+      <!-- <ul class="desktop__nav__list">
+        <li><a href="#">Login</a></li>
+        <li><a class="sign__up" href="#">Download CV</a></li>
+      </ul> -->
+
+      <div id="openButton" class="mobile__hamburger">
+        <div></div>
+      </div>
+    </nav>
+    <div id="myModal" class="mobile__nav__bg">
+      <div class="mobile__nav">
+        <span class="closeBtn" id="closeBtn">&times;</span>
+        <span class="nav__logo">corona_c<span>AR</span>e</span>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">CBrief</a></li>
+          <li><a href="./play.html">Play Zone</a></li>
+          <li class="active"><a href="./news.html">News</a></li>
+          <li><a href="./stats.html">Stats</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class=" container nav__logo">NE<span>WS</span></h1>
+    <div class="container main-headline">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <img src="./assets/images/who-director-general.jpeg" alt="WHO Governor General" class="img-fluid"/>
+        </div>
+        <div class="text col-12 col-md-6">
+          <p class="h2 headline pt-3">
+            WHO Director General's opening remarks at the media briefing on COVID-19.
+          </p>
+          <p class="date ">21, September, 2020</p>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <img src="./assets/images/dubai.jpg" alt="Rashid bin Mohammed AI Maktoum" class="img-fluid" />
+        </div>
+        <div class="text col-12 col-md-6">
+          <p class="h2 headline pt-3">
+            Dubai ruler joins coronavirus vaccine trial.
+          </p>
+          <p class="date ">29, October, 2020</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="line"></div>
+    <div class="rest-of-news container mt-md-5">
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+  <footer class="mt-5">
+    <div class="d-block d-lg-flex container list-div py-5">
+      <div>
+        <span class="nav__logo">corona_c<span>AR</span>e</span>
+      </div>
+      <div>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">CBrief</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./stats.html">Statistics</a></li>
+          <li><a href="./play.html">Play Zone</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="d-none d-lg-block">Get live Updates from time to time</p>
+        <form class="form-row" style="flex-wrap: nowrap;">
+          <input class="form-control rounded-0 rounded-left" type="email" placeholder="example@email.com" />
+          <button class="btn btn-primary rounded-0" type="button" value="submit">Subscribe</button>
+        </form>
+
+      </div>
+    </div>
+    <div class="footer-copyright py-3">
+      <section class="d-flex justify-content-between py-3 text-center m-auto">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-telegram-plane"></i>
+      </section>
+      
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/news.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+    font: 'Quicksand', sans-serif;
+}
+.faq{
+    width: 60%;
+    margin-left: 15%;
+}
+
+h1{
+    font-size:1.5 rem;
+    font-weight: 600;
+}
+
+h2{
+    font-weight:400;
+    font-size: 2.2rem;
+    margin-top: 40px;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+a {
+    color:#00CC6A;
+}
+
+.faq-span{
+    font-weight: 600;
+    color:#00CC6A;
+}
+
+@media (max-width:760px){
+    .faq{
+        width: 80%;
+        margin-right: 10%;
+    }
+    
+    h2{ font-size: 1.5rem;}
+    
+    p{font-size: 0.9rem;}
+    
+}
